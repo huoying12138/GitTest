@@ -7,8 +7,8 @@
         <mxCell id="3R6wmJ8np8cdlrLynfUz-1" parent="1" style="whiteSpace=wrap;html=1;" value="应用层" vertex="1">
           <mxGeometry height="60" width="150" x="10" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="3R6wmJ8np8cdlrLynfUz-2" parent="1" style="whiteSpace=wrap;html=1;" value="端口+握手+消息" vertex="1">
-          <mxGeometry height="60" width="190" x="540" y="190" as="geometry" />
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-2" parent="1" style="whiteSpace=wrap;html=1;direction=south;" value="端口+握手+消息" vertex="1">
+          <mxGeometry height="190" width="60" x="605" y="125" as="geometry" />
         </mxCell>
         <mxCell id="3R6wmJ8np8cdlrLynfUz-4" parent="1" style="whiteSpace=wrap;html=1;" value="传输介质" vertex="1">
           <mxGeometry height="40" width="110" x="193" y="325" as="geometry" />
