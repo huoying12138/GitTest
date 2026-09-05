@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="ul7lV27ZtjfJXgkhzyGx">
+    <mxGraphModel dx="803" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-1" parent="1" style="whiteSpace=wrap;html=1;" value="应用层" vertex="1">
+          <mxGeometry height="60" width="150" x="10" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-2" parent="1" style="whiteSpace=wrap;html=1;" value="端口+握手+消息" vertex="1">
+          <mxGeometry height="60" width="190" x="540" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-4" parent="1" style="whiteSpace=wrap;html=1;" value="传输介质" vertex="1">
+          <mxGeometry height="40" width="110" x="193" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-10" edge="1" parent="1" source="3R6wmJ8np8cdlrLynfUz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="3R6wmJ8np8cdlrLynfUz-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-5" parent="1" style="whiteSpace=wrap;html=1;" value="消息协议" vertex="1">
+          <mxGeometry height="50" width="110" x="420" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-6" parent="1" style="whiteSpace=wrap;html=1;" value="主进程" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-7" parent="1" style="whiteSpace=wrap;html=1;" value="进程A" vertex="1">
+          <mxGeometry height="40" width="85" x="193" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-8" parent="1" style="whiteSpace=wrap;html=1;" value="进程B" vertex="1">
+          <mxGeometry height="40" width="85" x="330" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-9" parent="1" style="whiteSpace=wrap;html=1;" value="类型（取舍和成本）" vertex="1">
+          <mxGeometry height="40" width="110" x="330" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JSON序列化" vertex="1">
+          <mxGeometry height="30" width="60" x="445" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="自定义buffer字节流" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="结构化层clone" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="tranfer有代价8 64kb" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="多种，接口抽象实现" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="服务a" vertex="1">
+          <mxGeometry height="30" width="60" x="320" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="服务b" vertex="1">
+          <mxGeometry height="30" width="60" x="385" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="服务a" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="服务a" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="client/server" vertex="1">
+          <mxGeometry height="30" width="85" x="319" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-21" parent="1" style="whiteSpace=wrap;html=1;" value="IConnection" vertex="1">
+          <mxGeometry height="30" width="100" x="250" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="3R6wmJ8np8cdlrLynfUz-22" parent="1" style="whiteSpace=wrap;html=1;" value="渲染进程B" vertex="1">
+          <mxGeometry height="40" width="85" x="372.5" y="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
